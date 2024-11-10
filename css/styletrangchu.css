@@ -1,0 +1,59 @@
+/* Đặt hình nền cho toàn bộ trang */
+body {
+    background-image: url('https://i.pinimg.com/736x/01/92/e7/0192e70a71b8863c2e90a83ea08a82ef.jpg'); /* Đổi với đường dẫn hình nền của bạn */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Thêm phong cách cho container */
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Màu nền mờ để nổi bật với hình nền */
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Phong cách cho tiêu đề */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Container chứa các nút */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Phong cách cho các nút */
+button {
+    background-color: #279be9;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #210dd6;
+    transform: translateY(-5px); /* Hiệu ứng nâng nút khi hover */
+}
+
+button:active {
+    transform: translateY(2px); /* Hiệu ứng khi nhấn nút */
+}

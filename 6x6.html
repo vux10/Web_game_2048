@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2048 - 6x</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="game-container">
+        <canvas id="gameCanvas" width="560" height="550"></canvas> <!-- Điều chỉnh chiều cao của canvas -->
+        <div id="score">Điểm: 0</div>
+        <div id="high-score">Điểm cao: 0</div>
+
+                <!-- Các nút Undo và Reset -->
+                <div class="controls">
+                    <button id="undo-button">
+                        <img src="assets/undo.png" alt="Undo">
+                    </button>
+                    <button id="reset-button">
+                        <img src="assets/reset.png" alt="Reset">
+                    </button>
+                </div>
+    </div>
+    <script src="js/game_6x6.js"></script>
+</body>
+</html>

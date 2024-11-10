@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game 2048 - Chọn Kích Thước Lưới</title>
+    <link rel="stylesheet" href="css/styletrangchu.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Game 2048</h1>
+        <div class="button-container">
+            <button onclick="startGame('4x4')">Chế độ 4x4</button>
+            <button onclick="startGame('5x5')">Chế độ 5x5</button>
+            <button onclick="startGame('6x6')">Chế độ 6x6</button>
+        </div>
+    </div>
+
+    <script>
+        function startGame(mode) {
+            window.location.href =`${mode}.html`; // Điều hướng đến trang chế độ chơi
+        }
+    </script>
+</body>
+</html>
